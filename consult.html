@@ -1,43 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Canvas Quoin Interiors – Consultation</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Canvas Quoin Interiors</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="mission.html">Mission</a></li>
-        <li><a href="leadership.html">Leadership</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="careers.html">Careers</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="consult.html">Consult</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h2>Schedule a Consultation</h2>
-    <p>Ready to transform your space? Complete the form below and our design team will reach out to discuss your project.</p>
-    <form>
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name" required><br>
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" required><br>
-      <label for="message">Tell us about your vision:</label><br>
-      <textarea id="message" name="message" rows="5"></textarea><br>
-      <button type="submit">Submit</button>
-    </form>
-    <p>Note: This form is a placeholder. Hook it up to your preferred backend to process inquiries.</p>
-  </main>
-  <footer>
-    &copy; 2025 Canvas Quoin Interiors. All rights reserved.
-  </footer>
-</body>
-</html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Canvas Quoin Interiors - Consult</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <header class="site-header">
+      <div class="topbar">
+        <div class="container topbar-content">
+          <span>Portland, OR</span>
+          <span>(503) 555-0172</span>
+          <span>studio@canvasquoin.com</span>
+        </div>
+      </div>
+      <div class="container nav-wrap">
+        <div class="logo">Canvas Quoin Interiors</div>
+        <nav><ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="mission.html">Mission</a></li>
+<li><a href="leadership.html">Leadership</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="careers.html">Careers</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="consult.html">Consult</a></li>
+</ul></nav>
+        <a class="button button--primary" href="consult.html">Book a design consult</a>
+      </div>
+    </header>
+      <section class="hero hero--compact" style="--hero-image: url('https://source.unsplash.com/1600x900/?home,decor');">
+  <div class="container hero-content">
+    <span class="eyebrow">Consult</span>
+    <h1>Start with a design discovery session.</h1>
+    <p>Share your goals and we will outline a tailored scope and timeline.</p>
+
+
+  </div>
+</section>
+      <main>
+        <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>What to expect</h2>
+          <p>A clear and respectful process from start to finish.</p>
+        </div>
+        <div class="grid grid-3">
+          <div class="card"><h3>Discovery call</h3><p>Discuss goals, timeline, and project scale.</p></div>
+<div class="card"><h3>Design proposal</h3><p>We send a scope, budget estimate, and project calendar.</p></div>
+<div class="card"><h3>Onboarding</h3><p>Site measurements, inspiration review, and moodboards.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container grid grid-2">
+        <div>
+          <div class="section-header">
+            <h2>Consultation request</h2>
+            <p>Tell us a bit about your goals so we can prepare for the call.</p>
+          </div>
+          <form class="form">
+            <div>
+              <label for="full-name">Full name</label>
+              <input id="full-name" type="text" placeholder="Full name">
+            </div>
+            <div>
+              <label for="company">Company</label>
+              <input id="company" type="text" placeholder="Company name">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@email.com">
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input id="phone" type="tel" placeholder="Phone number">
+            </div>
+            <div>
+              <label for="interest">Primary interest</label>
+              <select id="interest">
+                <option>Residential Design</option><option>Hospitality and Retail</option><option>FF and E Procurement</option><option>Renovation Management</option>
+              </select>
+            </div>
+            <div>
+              <label for="budget">Estimated budget</label>
+              <select id="budget">
+                <option>Under $25k</option>
+                <option>$25k to $100k</option>
+                <option>$100k to $250k</option>
+                <option>$250k+</option>
+              </select>
+            </div>
+            <div>
+              <label for="details">Project details</label>
+              <textarea id="details" placeholder="Share timelines, objectives, and stakeholders."></textarea>
+            </div>
+            <button class="button button--primary" type="submit">Submit request</button>
+          </form>
+        </div>
+        <div>
+          <div class="section-header">
+            <h2>FAQ</h2>
+            <p>Common questions before starting.</p>
+          </div>
+          <div class="grid">
+            <div class="card"><h3>Do you work with remote clients?</h3><p>Yes, we offer remote design with local trades coordination.</p></div>
+<div class="card"><h3>What is the minimum project size?</h3><p>We typically engage on projects with a design budget of $25,000 or more.</p></div>
+<div class="card"><h3>Can you manage construction?</h3><p>We coordinate with your chosen contractor and provide design oversight.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+      </main>
+      <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <h3>Canvas Quoin Interiors</h3>
+            <p>Interiors with texture, light, and lasting character.</p>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <p>1147 SE Hawthorne Blvd, Portland, OR 97214</p>
+            <p>(503) 555-0172<br>studio@canvasquoin.com</p>
+            <p>Mon to Fri, 9:00am to 5:30pm PT</p>
+          </div>
+          <div>
+            <h4>Services</h4>
+            <ul class="list">
+              <li><a href="services.html">Residential Design</a></li>
+<li><a href="services.html">Hospitality and Retail</a></li>
+<li><a href="services.html">FF and E Procurement</a></li>
+<li><a href="services.html">Renovation Management</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Quick Links</h4>
+            <ul class="list">
+              <li><a href="about.html">About</a></li>
+              <li><a href="leadership.html">Leadership</a></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="footnote">Copyright 2026 Canvas Quoin Interiors. All rights reserved.</p>
+      </div>
+    </footer>
+    </body>
+    </html>
